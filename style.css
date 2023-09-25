@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Graphi';
-    src: url(./assets/GraphikBold.otf);
+    src: url(./assets/GraphikSemibold.otf);
 }
 @font-face{
     font-family: 'Graphik';
@@ -17,11 +17,12 @@
     letter-spacing: 0.3px;
     line-height: 135%;
     text-decoration: none;
+    text-rendering: optimizeLegibility;
 }
 
 body{
     background-color: #121316;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     cursor: default;
 }
 
@@ -140,7 +141,7 @@ nav li{
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 64%;
+    width: 63%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -297,7 +298,7 @@ WORKS
     z-index: 99;
 }
 
-.fwork p{font-family: 'Graphik';font-size: 14px; font-weight: 400}
+.fwork p{font-family: 'Graphik';font-size: 14px; font-weight: 400; opacity: 0.8;}
 
 /* ==========================================
 ABOUT
